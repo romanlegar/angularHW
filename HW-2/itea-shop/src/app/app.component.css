@@ -1,0 +1,48 @@
+.header {
+  padding: 100px 0 100px 0;
+  margin-top: 50px;
+  color: black;
+  background-image: url(https://rau.ua/wp-content/uploads/2017/09/Prodazhi-internet-magazina.jpg);
+  font-size: 64px;
+  font-weight: bold;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+.menu .menu-item {
+  cursor: pointer;
+}
+.content {
+  margin: 150px 0  150px 0;
+  font-size: 64px;
+  font-weight: 900;
+}
+.content-item-1, .content-item-2, .content-item-3 {
+  width: 40%;
+  height: 200px;
+  background-size: cover;
+  margin: 20px;
+}
+.content-item-1 {
+  background-image: url(http://positioningmag.com/wp-content/uploads/2016/12/Open_PAYSBUY.png);
+
+}
+.content-item-2 {
+  margin-left: 55%;
+  background-image: url(https://cdn.marketingoops.com/wp-content/uploads/2018/03/best-ecommerce-platforms-for-online-store-picsay.png);
+}
+.content-item-3 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnHrgYTuQit7nuBCs1SaIKR304DY91ruIzob80A_D1SSLVbrj4);
+}
+
+.footer{
+  margin-top: 50px;
+  background-image: url(https://delo.ua/files/news/images/3467/30/picture2_kakoj-internet-ma_346730_p0.png);
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
