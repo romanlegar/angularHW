@@ -1,0 +1,29 @@
+<div *ngIf="components.length>0">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+            <h2>Корзина</h2>
+        </div>
+    </div>
+    <app-cart-item *ngFor="let component of (components | async)"
+            [cartComponent]="component"
+            (removeButtonClicked)="onRemoveButtonClicked($event)"
+            (minusButtonClicked)="onMinusButtonClicked($event)"
+            (plusButtonClicked)="onPlusButtonClicked($event)"
+            ></app-cart-item>
+    <div class="row">
+        <div class="col-md-12">
+           Цена = {{total}} Количество товаров = {{count}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10">
+          <button
+             class="btn btn-info pull-right"
+            (click)="onCreateOrder()"
+            data-toggle="modal"
+            data-target="#exampleModalCenter">
+            Оформить
+          </button>
+        </div>
+    </div>
+</div>

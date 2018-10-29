@@ -1,0 +1,11 @@
+<p>
+  cart works!
+</p>
+<ul>
+  <app-cart-item
+   *ngFor="let cart of arrCarts"
+   [cart]="cart"
+  >
+  </app-cart-item>
+  <button>Оформить заказ</button>
+</ul>

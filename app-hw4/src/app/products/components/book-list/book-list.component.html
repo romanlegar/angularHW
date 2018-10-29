@@ -1,0 +1,11 @@
+<p>
+  book-list works!
+
+</p>
+
+<ul>
+  <app-book
+    *ngFor=" let book of books "[book] = 'book'
+    (buy)='onBuy($event)'>
+  </app-book>
+</ul>

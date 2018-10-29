@@ -1,0 +1,9 @@
+{
+  "cart": [
+        { "id": 1, "name": "Book", "price": 21, "img": "https://i1.rozetka.ua/goods/portal/constructors/units/groups/51/51160.120x150.jpg", "quantity": 5},
+        { "id": 2, "name": "Book", "price": 31, "img": "https://i1.rozetka.ua/goods/portal/constructors/units/groups/51/51160.120x150.jpg", "quantity": 5},
+        { "id": 3, "name": "Book", "price": 11, "img": "https://i1.rozetka.ua/goods/portal/constructors/units/groups/51/51160.120x150.jpg", "quantity": 5},
+        { "id": 4, "name": "Book", "price": 21, "img": "https://i1.rozetka.ua/goods/portal/constructors/units/groups/51/51160.120x150.jpg", "quantity": 5},
+        { "id": 5, "name": "Book", "price": 31, "img": "https://i1.rozetka.ua/goods/portal/constructors/units/groups/51/51160.120x150.jpg", "quantity": 5}
+    ]
+}
